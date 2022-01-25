@@ -1,3 +1,5 @@
 - hosts: all
+  roles:
+    - geerlingguy.php_roles.php
   tasks:
     - ping:
